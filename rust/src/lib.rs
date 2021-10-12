@@ -86,10 +86,6 @@ pub fn receive_example_from_js(val: &JsValue) -> JsValue {
 //   pub parent: Person,
 // }
 
-#[wasm_bindgen]
-pub fn pass_value_to_js() -> Result<JsValue, JsValue> {
-  serde_wasm_bindgen::to_value(vec![3., 4.])
-}
 
 // #[wasm_bindgen]
 // pub fn get_value_from_js(value: JsValue) -> Result<(), JsValue> {

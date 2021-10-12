@@ -15,6 +15,4 @@ rust().then(({ Universe, receive_example_from_js, send_example_to_js, pass_value
 
   // Send the example object back to wasm.
   receive_example_from_js(example);
-  const serdeValue = pass_value_to_js()
-  console.log('serdeValue ==========>', serdeValue)
 });
