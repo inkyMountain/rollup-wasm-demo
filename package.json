@@ -1,0 +1,13 @@
+{
+  "name": "rollup-wasm-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@wasm-tool/rollup-plugin-rust": "^1.0.7",
+    "rollup": "^2.58.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
